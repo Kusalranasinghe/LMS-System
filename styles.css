@@ -71,7 +71,9 @@ body {
 .functions {
     padding-top: 50px;
     padding-bottom: 50px;
+
     text-align: center;
+
 
 
 }
@@ -136,4 +138,10 @@ footer ul .rights {
     width: 300px;
     margin-left: 450px;
     padding-top: 30px;
+    align-content: center;
+    
+}
+
+#card {
+    display: flex;
 }
