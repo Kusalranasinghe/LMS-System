@@ -107,6 +107,18 @@ footer ul li {
     padding: 10px;
 }
 
+footer ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: rgb(206, 212, 217);
+
+    transform: scale(1.15);
+}
+
 footer ul .rights {
     float: left;
 }
@@ -134,12 +146,12 @@ footer ul .rights {
     box-shadow: 0 0 2px 2px rgb(128, 124, 124);
 }
 
-.form-signin{
+.form-signin {
     width: 300px;
     margin-left: 450px;
     padding-top: 30px;
     align-content: center;
-    
+
 }
 
 #card {
@@ -147,16 +159,14 @@ footer ul .rights {
 }
 
 .login-container {
-    align-self:center;
+    align-self: center;
     padding-left: 100px;
     margin: 10px;
-     margin: 40px auto;
+    margin: 40px auto;
     width: 85%;
     background-color: #ffffffee;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 2px 2px rgb(128, 124, 124);
-    
+
 }
-
-
