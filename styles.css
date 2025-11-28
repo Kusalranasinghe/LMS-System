@@ -23,9 +23,9 @@ body {
 
 .nav li.logo {
     margin-right: auto;
-    width: 50px;
-    height: 50px;
-    padding-left: 50px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: large;
 }
 
 .nav li a {
@@ -52,7 +52,7 @@ body {
 }
 
 .nav li a.active:hover {
-    color: rgb(18, 221, 22);
+    color: rgb(29, 39, 236);
     transform: scale(1.1);
 }
 
@@ -113,7 +113,7 @@ footer ul .rights {
 
 .main {
     margin: 5px;
-    background-color: aqua;
+    background-color: rgb(118, 180, 255);
     height: 600px;
     padding-left: 100px;
     padding-top: 180px;
@@ -145,3 +145,18 @@ footer ul .rights {
 #card {
     display: flex;
 }
+
+.login-container {
+    align-self:center;
+    padding-left: 100px;
+    margin: 10px;
+     margin: 40px auto;
+    width: 85%;
+    background-color: #ffffffee;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px rgb(128, 124, 124);
+    
+}
+
+
